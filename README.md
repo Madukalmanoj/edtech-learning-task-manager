@@ -106,8 +106,7 @@ Responses consistently follow `{ success: boolean, message: string, data?: any }
 | client | `npm run dev` | Start Vite dev server (port 5173) |
 | client | `npm run build` | Production build |
 
-## Video Walkthrough
-A ready-to-record outline covering signup/login flows, dashboards, CRUD demos, and code pointers is provided in `VIDEO_WALKTHROUGH_CHECKLIST.md`.
+
 
 ## AI Assistance Disclosure
 AI pair-programming assisted with scaffolding, boilerplate generation, and narrative documentation. All business rules, role checks, data filtering, and UI behavior were implemented and manually verified before delivery.
