@@ -1,0 +1,110 @@
+{
+    "teacherSignup":  {
+                          "success":  true,
+                          "message":  "Account created",
+                          "user":  {
+                                       "id":  "691c79ea225f74e1fdd78cec",
+                                       "email":  "teacher+20251118192138@example.com",
+                                       "role":  "teacher",
+                                       "teacherId":  null
+                                   }
+                      },
+    "studentSignup":  {
+                          "success":  true,
+                          "message":  "Account created",
+                          "user":  {
+                                       "id":  "691c79eb225f74e1fdd78cf0",
+                                       "email":  "student+20251118192138@example.com",
+                                       "role":  "student",
+                                       "teacherId":  "691c79ea225f74e1fdd78cec"
+                                   }
+                      },
+    "teacherLogin":  {
+                         "user":  {
+                                      "id":  "691c79ea225f74e1fdd78cec",
+                                      "email":  "teacher+20251118192138@example.com",
+                                      "role":  "teacher",
+                                      "teacherId":  null
+                                  },
+                         "token":  "stored"
+                     },
+    "studentLogin":  {
+                         "user":  {
+                                      "id":  "691c79eb225f74e1fdd78cf0",
+                                      "email":  "student+20251118192138@example.com",
+                                      "role":  "student",
+                                      "teacherId":  "691c79ea225f74e1fdd78cec"
+                                  },
+                         "token":  "stored"
+                     },
+    "studentTask":  {
+                        "success":  true,
+                        "message":  "Task created",
+                        "data":  {
+                                     "userId":  {
+                                                    "_id":  "691c79eb225f74e1fdd78cf0",
+                                                    "email":  "student+20251118192138@example.com",
+                                                    "role":  "student",
+                                                    "teacherId":  "691c79ea225f74e1fdd78cec"
+                                                },
+                                     "title":  "Read Chapter 1",
+                                     "description":  "Limits intro",
+                                     "dueDate":  "2025-11-25T13:51:39.984Z",
+                                     "progress":  "not-started",
+                                     "_id":  "691c79ec225f74e1fdd78cf4",
+                                     "createdAt":  "2025-11-18T13:51:40.002Z",
+                                     "updatedAt":  "2025-11-18T13:51:40.002Z",
+                                     "__v":  0
+                                 }
+                    },
+    "studentTasks":  {
+                         "success":  true,
+                         "message":  "Tasks fetched",
+                         "data":  [
+                                      {
+                                          "_id":  "691c79ec225f74e1fdd78cf4",
+                                          "userId":  {
+                                                         "_id":  "691c79eb225f74e1fdd78cf0",
+                                                         "email":  "student+20251118192138@example.com",
+                                                         "role":  "student",
+                                                         "teacherId":  "691c79ea225f74e1fdd78cec"
+                                                     },
+                                          "title":  "Read Chapter 1",
+                                          "description":  "Limits intro",
+                                          "dueDate":  "2025-11-25T13:51:39.984Z",
+                                          "progress":  "not-started",
+                                          "createdAt":  "2025-11-18T13:51:40.002Z",
+                                          "updatedAt":  "2025-11-18T13:51:40.002Z",
+                                          "__v":  0,
+                                          "ownership":  "owner"
+                                      }
+                                  ]
+                     },
+    "teacherTasks":  {
+                         "success":  true,
+                         "message":  "Tasks fetched",
+                         "data":  [
+                                      {
+                                          "_id":  "691c79ec225f74e1fdd78cf4",
+                                          "userId":  {
+                                                         "_id":  "691c79eb225f74e1fdd78cf0",
+                                                         "email":  "student+20251118192138@example.com",
+                                                         "role":  "student",
+                                                         "teacherId":  "691c79ea225f74e1fdd78cec"
+                                                     },
+                                          "title":  "Read Chapter 1",
+                                          "description":  "Limits intro",
+                                          "dueDate":  "2025-11-25T13:51:39.984Z",
+                                          "progress":  "not-started",
+                                          "createdAt":  "2025-11-18T13:51:40.002Z",
+                                          "updatedAt":  "2025-11-18T13:51:40.002Z",
+                                          "__v":  0,
+                                          "ownership":  "assigned-student"
+                                      }
+                                  ]
+                     },
+    "forbiddenUpdate":  {
+                            "success":  false,
+                            "message":  "You can only modify tasks you created"
+                        }
+}

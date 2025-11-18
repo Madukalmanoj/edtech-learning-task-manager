@@ -1,0 +1,33 @@
+{
+  "name": "edtech-learning-task-manager-server",
+  "version": "1.0.0",
+  "description": "Express + MongoDB backend for the EdTech Learning Task Manager take-home assignment.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "echo \"Add ESLint if required\""
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "edtech"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.3.0",
+    "mongoose": "^8.20.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

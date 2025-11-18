@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+server/node_modules
+client/node_modules
+
+# Build outputs
+client/dist
+
+# Env files
+*.env
+server/.env*
+client/.env*
+
+# Editor
+.idea
+.vscode
+
+# Coverage / temp
+coverage
+tmp
+.DS_Store
+
